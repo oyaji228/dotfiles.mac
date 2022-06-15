@@ -23,8 +23,6 @@ $ ~/dotfiles4mac/setup.sh
 ```
 
 
-test
-
 
 
 
