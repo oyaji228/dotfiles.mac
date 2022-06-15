@@ -1,6 +1,7 @@
 # dotfiles.mac
 
 ## dotfilesとは
+
 -『.vimrc』『.emacs.d』『.zshrc』なんかの「頭にドットがつくファイル」
 - このdotfilesをGitHubで管理しておいて、「dotfilesリポジトリをクローン+install.shの実行」で、環境構築を楽に行う
 
