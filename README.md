@@ -17,7 +17,7 @@ $ git clone https://github.com/oyaji228/dotfiles4mac.git
 $ chmod +x ~/dotfiles4mac/setup.sh
 ```
 
-4. 初期設定の実行
+3. 初期設定の実行
 ```
 $ ~/dotfiles4mac/setup.sh
 ```
