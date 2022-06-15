@@ -9,7 +9,7 @@
 1. 新規環境で、HOMEディレクトリ(~)にGitHubからdotfilesをクローン
 ```
 $ cd ~
-$ git clone https://github.com/oyaji228/dotfiles.mac.git
+$ git clone https://github.com/oyaji228/dotfiles4mac.git
 ```
 
 2. 実行ファイルに実行権限をつける
