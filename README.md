@@ -14,12 +14,12 @@ $ git clone https://github.com/oyaji228/dotfiles.mac.git
 
 2. 実行ファイルに実行権限をつける
 ```
-$ chmod +x ~/dotfiles/install.sh
+$ chmod +x ~/dotfiles4mac/install.sh
 ```
 
 4. 初期設定の実行
 ```
-$ ~/dotfiles/install.sh
+$ ~/dotfiles4mac/install.sh
 ```
 
 
