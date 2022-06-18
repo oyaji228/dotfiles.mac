@@ -2,7 +2,7 @@
 
 ## dotfilesとは
 
-- 『.vimrc』『.emacs.d』『.zshrc』なんかの「頭にドットがつくファイル」
+- 『.vimrc』『.emacs.d』『.zshrc』などの頭にドットがつくファイルを指す
 - このdotfilesをGitHubで管理しておいて、「dotfilesリポジトリをクローン+install.shの実行」で、環境構築を楽に行う
 
 ## 使い方
