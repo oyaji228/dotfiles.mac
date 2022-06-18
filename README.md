@@ -18,9 +18,9 @@ $ chmod +x ~/dotfiles4mac/link.sh ~/dotfiles4mac/make.sh ~/dotfiles4mac/brew.sh
 ```
 
 3.powerlineをインストール
-###githubを参考にしてインストール
-### https://github.com/b-ryan/powerline-shell
-### powerline-fontsとpowerline-shellのインストールが必要
+- githubを参考にしてインストール
+- https://github.com/b-ryan/powerline-shell
+- powerline-fontsとpowerline-shellのインストールが必要
 
 
 4. 初期設定の実行
