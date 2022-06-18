@@ -18,7 +18,7 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 ## zsh-completions用の設定(コマンド補完機能)
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
+  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
   autoload -Uz compinit
   compinit
 fi
@@ -88,29 +88,28 @@ esac
 
 # pyenv
 ## 環境変数
-export PATH="/usr/local/sbin:$PATH"
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-eval export PATH="/Users/sunao/.pyenv/shims:${PATH}"
-export PYENV_SHELL=zsh
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
+#eval export PATH="/Users/sunao/.pyenv/shims:${PATH}"
+#export PYENV_SHELL=zsh
 
 ## source '/usr/local/Cellar/pyenv/1.2.18/libexec/../completions/pyenv.zsh'
-command pyenv rehash 2>/dev/null
-pyenv() {
-  local command
-  command="${1:-}"
-  if [ "$#" -gt 0 ]; then
-    shift
-  fi
+#command pyenv rehash 2>/dev/null
+#pyenv() {
+#  local command
+#  command="${1:-}"
+#  if [ "$#" -gt 0 ]; then
+#    shift
+#  fi
 
-  case "$command" in
-  rehash|shell)
-    eval "$(pyenv "sh-$command" "$@")";;
-  *)
-    command pyenv "$command" "$@";;
-  esac
-}
+#  case "$command" in
+#  rehash|shell)
+#    eval "$(pyenv "sh-$command" "$@")";;
+#  *)
+#    command pyenv "$command" "$@";;
+#  esac
+#}
 
 
 # powerline
