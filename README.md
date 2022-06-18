@@ -14,12 +14,14 @@ $ git clone https://github.com/oyaji228/dotfiles4mac.git
 
 2. 実行ファイルに実行権限をつける
 ```
-$ chmod +x ~/dotfiles4mac/setup.sh
+$ chmod +x ~/dotfiles4mac/link.sh
+$ chmod +x ~/dotfiles4mac/make.sh
+
 ```
 
 3. 初期設定の実行
 ```
-$ ~/dotfiles4mac/setup.sh
+$ ~/dotfiles4mac/make.sh
 ```
 
 
