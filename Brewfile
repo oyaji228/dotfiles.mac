@@ -19,7 +19,18 @@ brew "readline"
 brew "telnet"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
+brew "mas"
 
 cask "docker"
 cask "iterm2"
+cask "1password"
+cask "google-chrome"
+cask "amazon-photos"
+cask "slack"
+cask "dropbox"
+cask "wireshark"
+cask "adobe-acrobat-reader"
+cask "zoomus"
+
+mas "LINE"
 
