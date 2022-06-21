@@ -1,4 +1,3 @@
-
 # 環境変数
 ## LANGをja_JP.UTF-8に設定
 export LANG=ja_jp.UTF-8
@@ -65,12 +64,12 @@ tmp_prompt2="%{${fg[cyan]}%}%_> %{${reset_color}%}"
 tmp_rprompt="%{${fg[green]}%}%D{%Y/%m/%d} %* %{${reset_color}%}"
 tmp_sprompt="%{${fg[yellow]}%}%r is correct? [Yes, No, Abort, Edit]:%{${reset_color}%}"
 ### rootユーザ時のプロンプト表示設定(太字にし、アンダーバーをつける)
-if [ ${UID} -eq 0 ]; then
-  tmp_prompt="%B%U${tmp_prompt}%u%b"
-  tmp_prompt2="%B%U${tmp_prompt2}%u%b"
-  tmp_rprompt="%B%U${tmp_rprompt}%u%b"
-  tmp_sprompt="%B%U${tmp_sprompt}%u%b"
-fi
+#if [ ${UID} -eq 0 ]; then
+#  tmp_prompt="%B%U${tmp_prompt}%u%b"
+#  tmp_prompt2="%B%U${tmp_prompt2}%u%b"
+#  tmp_rprompt="%B%U${tmp_rprompt}%u%b"
+#  tmp_sprompt="%B%U${tmp_sprompt}%u%b"
+#fi
 
 PROMPT=$tmp_prompt    # 通常のプロンプト
 PROMPT2=$tmp_prompt2  # セカンダリのプロンプト(コマンドが2行以上の時に表示される)
