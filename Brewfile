@@ -32,5 +32,4 @@ cask "wireshark"
 cask "adobe-acrobat-reader"
 cask "zoomus"
 
-mas "LINE"
-
+mas "LINE", id: 539883307
