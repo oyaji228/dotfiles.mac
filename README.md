@@ -7,7 +7,7 @@
 
 ## 事前準備
 - githubのssh接続するための設定を済ませておく
-  - https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+  - [参考：GitHubでssh接続する手順~公開鍵・秘密鍵の生成から~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
   
 
 ## 使い方
