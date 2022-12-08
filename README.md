@@ -17,15 +17,18 @@ $ cd ~
 $ git clone git@github.com:oyaji228/dotfiles4mac.git
 ```
 
+
 2. 実行ファイルに実行権限をつける
 ```
 $ chmod +x ~/dotfiles4mac/link.sh ~/dotfiles4mac/make.sh ~/dotfiles4mac/brew.sh
 ```
 
+
 3. powerlineをインストール
 - githubを参考にしてインストール
 - powerline-fontsとpowerline-shellのインストールが必要
   - [powerline-shellのGit Repository](https://github.com/b-ryan/powerline-shell)
+
 
 4. 初期設定の実行
 ```
