@@ -5,6 +5,11 @@
 - 『.vimrc』『.emacs.d』『.zshrc』などの頭にドットがつくファイルを指す
 - このdotfilesをGitHubで管理しておいて、「dotfilesリポジトリをクローン+install.shの実行」で、環境構築を楽に行う
 
+## 事前準備
+- githubのssh接続するための設定を済ませておく
+  - https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+  
+
 ## 使い方
 1. 新規環境で、HOMEディレクトリ(~)にGitHubからdotfilesをクローン
 ```
@@ -25,7 +30,8 @@ $ chmod +x ~/dotfiles4mac/link.sh ~/dotfiles4mac/make.sh ~/dotfiles4mac/brew.sh
 
 4. 初期設定の実行
 ```
-$ ~/dotfiles4mac/make.sh
+$ cd ~/dotfiles4mac
+$ ./make.sh
 ```
 
 
