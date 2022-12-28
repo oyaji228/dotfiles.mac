@@ -20,6 +20,8 @@ brew "telnet"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "mas"
+brew "terraform"
+brew "azure-cli"
 
 cask "docker"
 cask "iterm2"
