@@ -12,9 +12,8 @@ export CLICOLOR=true
 ## 補完候補に色を付ける
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
-
 ## Terraform setting
-export GOPATH='/Users/sunaoMss/go'
+#export GOPATH='/Users/sunaoMss/go'
 
 
 # 基本設定
