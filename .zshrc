@@ -13,6 +13,10 @@ export CLICOLOR=true
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 
+## Terraform setting
+export GOPATH='/Users/sunaoMss/go'
+
+
 # 基本設定
 ## zsh-completions用の設定(コマンド補完機能)
 if type brew &>/dev/null; then
@@ -49,6 +53,7 @@ alias tel="telnet"
 alias q="exit"
 alias vi="vim"
 alias cls="clear"
+alias tf="terraform"
 ## コマンド履歴
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
