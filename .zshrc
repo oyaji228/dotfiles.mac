@@ -1,3 +1,5 @@
+#2023/1/12 test
+
 # 環境変数
 ## LANGをja_JP.UTF-8に設定
 export LANG=ja_jp.UTF-8
