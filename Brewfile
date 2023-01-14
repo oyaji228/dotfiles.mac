@@ -20,6 +20,8 @@ brew "telnet"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "mas"
+brew "terraform"
+brew "azure-cli"
 
 cask "docker"
 cask "iterm2"
@@ -32,5 +34,4 @@ cask "wireshark"
 cask "adobe-acrobat-reader"
 cask "zoomus"
 
-mas "LINE"
-
+mas "LINE", id: 539883307
