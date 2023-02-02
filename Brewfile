@@ -22,6 +22,7 @@ brew "zsh-completions"
 brew "mas"
 brew "terraform"
 brew "azure-cli"
+brew "tmux"
 
 cask "docker"
 cask "iterm2"
