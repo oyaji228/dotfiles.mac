@@ -53,6 +53,7 @@ alias q="exit"
 alias vi="vim"
 alias cls="clear"
 alias tf="terraform"
+alias tm="tmux"
 ## コマンド履歴
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
