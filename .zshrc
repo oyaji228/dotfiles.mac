@@ -118,7 +118,7 @@ esac
 
 # powerline
 function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)"
+    PS1="$(powerline-shell --shell zsh $?)"   
 }
 
 function install_powerline_precmd() {
@@ -133,6 +133,5 @@ function install_powerline_precmd() {
 if [ "$TERM" != "linux" ]; then
     install_powerline_precmd
 fi
-
 
 
